@@ -1,0 +1,25 @@
+package meuprojeto;
+
+public class Main {
+	
+	public static void main (String[] args) {
+		
+	
+		Calculadora c1 = new Calculadora();
+		
+
+		c1.setnum1(30);
+		c1.setnum2(30);
+		c1.somar();
+		c1.multiplicar();
+		c1.dividir();
+		c1.subtrair();
+		
+		
+		
+
+		
+		
+		
+	}
+}
