@@ -40,3 +40,46 @@ public class Pessoas {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// package meuprojeto;
+
+// public class Pessoas {
+
+// 	public String nome;
+// 	public String endereco;
+// 	public String cpf;
+	
+	
+// 	void apresentação() {
+// 		System.out.println("Olá, eu sou "+nome+" possuo CPF: "+cpf+" e moro no endereço "+endereco);
+// 	}
+	
+// 	public void setnome(String nome) {
+// 		this.nome = nome;
+// 	}
+// 	public void setendereco(String endereco) {
+// 		this.endereco = endereco;
+// 	}
+	
+	
+// 	public void setcpf(String cpf) {
+// 		this.cpf = cpf;
+// 	}
+
+// }
+
