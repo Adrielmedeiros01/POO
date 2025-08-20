@@ -1,0 +1,45 @@
+package meuprojeto;
+
+public class Calculadora {
+
+		double num1;
+		double num2;
+		
+		void somar() {
+			double somar = num1 + num2;
+			System.out.println(num1 + " + " +num2+" = " + somar);
+		}
+		
+		void multiplicar() {
+			double multiplicar = num1 * num2;
+			System.out.println(num1+" x "+num2+" = "+multiplicar);
+		}
+		void dividir() {
+			double dividir = num1 / num2;
+			System.out.println(num1+" ÷ "+num2+" = "+dividir);
+		}
+		
+		void subtrair() {
+			double subtrair = num1 - num2;
+			System.out.println(num1+" - "+num2+" = "+subtrair);
+		}
+		
+//		public double getnum1() {
+//			return num1;
+//		}
+		
+		public void setnum1(double num1) {
+			this.num1 = num1;
+		}
+		
+//		public double getnum2() {
+//			return this.num2;
+//		}
+		
+		public void setnum2(double num2) {
+			this.num2 = num2;
+		}
+		
+	}
+	
+	
