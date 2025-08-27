@@ -1,0 +1,75 @@
+package meuprojeto;
+
+public class Produtos {
+	
+//	ATRIBUTOS:
+	private String nome;
+	private double preco;
+	private int quantidade;
+	
+	
+//	Construtor:
+//	public Produtos(String nome, double preco, int quantidade) {
+//	    this.nome = nome;
+//	    this.preco = preco;
+//	    this.quantidade = quantidade;
+//	}
+	
+	
+//	MÉTOOOS:
+	public double valorEstoque(){
+		return this.quantidade * this.preco;
+	}
+	
+	public void vender(int qtd) {
+		
+		if(qtd > this.quantidade) {
+			System.out.println("Ops... Ação inválida.");
+		}
+		
+		else {
+			this.quantidade -= qtd;
+			System.out.println("Venda realizada de " + qtd + " unidades.");
+		}
+	}
+	
+	public void repor(int qtd) {
+		this.quantidade += qtd;
+		System.out.println("Foram adicionadas " + qtd + " unidades ao estoque.");
+	}
+	
+	
+	public void statusEstoque() {
+		System.out.println("==============================================");
+		System.out.println("Produto escolhido: "+ this.nome);
+		System.out.println("Quantidade no estoque: "+ this.quantidade);
+		System.out.println("Preço do produto: "+ this.preco);
+//		System.out.println("Venda realizada de " + qtd + " unidades."); MELHOR FORMA
+		System.out.println("Valor total do estoque: "+ valorEstoque());
+		System.out.println("==============================================");
+	}
+	
+	
+//	GET E SET:
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getNome() {
+		return this.nome;
+	}
+	public double getPreco() {
+		return this.preco;
+	}
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+	public int getQuantidade() {
+		return this.quantidade; 
+	}
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
+	
+	
+}
+     
