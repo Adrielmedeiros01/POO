@@ -1,0 +1,14 @@
+package meuprojeto;
+
+public class Main {
+	
+	public static void main (String[] args) {
+
+		Funcionarios f2 = new Vendendor("Erika", 2400, null);
+		f2.informacoes();
+		
+		Funcionarios f1 = new Gerente("Adriel", 5000, "RH");
+		f1.informacoes();
+		
+	}
+}
