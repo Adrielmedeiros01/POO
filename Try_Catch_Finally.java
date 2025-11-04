@@ -4,12 +4,17 @@ public class Main {
 
 	public static void main(String[] args) {
 
+
+		// Ocorrem quando algo inesperado acontece durante a execução;
+		// Forma inteligente/elegante de lidar com os erros do algoritmo;
+
+		
 		try {
 			System.out.println("Esse Bloco será exeultado como o bloco Main");
 		}
 		
 		catch(Exception e) {
-			// captura o erro e trataremos esse erro..
+			// captura do erro e tratamento desse erro..
 			System.out.println("Ocorreu um erro!");
 			System.out.println("Tipo da exceção: " + e.getClass().getName());
 			System.out.println("Mensagem: " + e.getMessage());
