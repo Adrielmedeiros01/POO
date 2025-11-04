@@ -7,7 +7,6 @@ public class Main {
 
 		// Ocorrem quando algo inesperado acontece durante a execução;
 		// Forma inteligente/elegante de lidar com os erros do algoritmo;
-
 		
 		try {
 			System.out.println("Esse Bloco será exeultado como o bloco Main");
@@ -24,6 +23,13 @@ public class Main {
 			System.out.println("Esse bloco sempre será execultado quando finalizar o cógido...");
 			System.out.println("Processo finalizado...");
 		}	
+
+		throws 
+		// para fazer a assinatura da nova exceção (será colocado ao lado do método)
+		// public void lerArquivo(String caminho) throws IOException {}
+		
+		throw 
+		// throw new Exception("Texto")
 		
 	}
 }
