@@ -24,11 +24,11 @@ public class Main {
 			System.out.println("Processo finalizado...");
 		}	
 
-		throws 
+		// throws:
 		// para fazer a assinatura da nova exceção (será colocado ao lado do método)
 		// public void lerArquivo(String caminho) throws IOException {}
 		
-		throw 
+		// throw:
 		// throw new Exception("Texto")
 		
 	}
