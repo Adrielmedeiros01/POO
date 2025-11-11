@@ -2,8 +2,19 @@ package Principal;
 
 public class Aspirador extends DispIntelig implements BotaoPower {
 	
+	private String marca;
+	private double bateria;
+	
 	public Aspirador() {
+		 super();
 		 ligada = false;
+		 this.marca = "Xiaomi";
+		 this.bateria = 75.0;
+	}
+	
+	public void inforAspir() {
+		System.out.println("Marca: " + this.marca);
+		System.out.println("Bateria: " + this.bateria + "%");
 	}
 	
 	@Override
