@@ -24,6 +24,11 @@ public class Main  {
 		Download d1 = new Download("Download1");
 		Download d2 = new Download("Download2");
 		
+		
+		Pessoa p1 = new Pessoa();
+		Pessoa p2 = new Pessoa();
+
+		
 		try {
 			
 			helloworld();
@@ -39,9 +44,12 @@ public class Main  {
 //			new Thread(c1).start();
 //			new Thread(c2).start();
 			
-			// Exemplo utilizando a Thread com a classe download:
+			// Exemplo utilizando a Thread em um download:
 //			d1.start();
 //			d2.start();
+			
+			p1.start();
+			p2.start();
 						
 		}
 		
